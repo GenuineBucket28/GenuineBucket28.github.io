@@ -32,3 +32,9 @@ li a {
 li a:hover {
   background-color: #111;
 }
+.button {
+  text-align: center;
+}
+#demo {
+  color: white;
+}
