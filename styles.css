@@ -37,4 +37,13 @@ li a:hover {
 }
 #demo {
   color: white;
+  font-family: 'PT Sans', sans-serif;
+}
+#adder {
+  color: white;
+  font-family: 'PT Sans', sans-serif;
+}
+#counting {
+  color: white;
+  font-family: 'PT Sans', sans-serif;
 }

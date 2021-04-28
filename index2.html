@@ -2,8 +2,9 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>JS Page</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
   </head>
   <body>
     <ul>
@@ -19,7 +20,22 @@
       onclick="document.getElementById('demo').innerHTML = Date()">
       Click me to display Date and Time.</button>
 
-      <p id="demo" class="Date"></p>
+      <p id="demo"></p>
+
+      <button type="button"
+      onclick="document.getElementById('adder').innerHTML = testFunction(3, 5)">
+      Click to return the sum of 3 and 5</button>
+
+      <p id="adder"></p>
+
+      <button type="button"
+      onclick="document.getElementById('counting').innerHTML = counterUp()">
+      This button counts up</button>
+      <button type="button"
+      onclick="document.getElementById('counting').innerHTML = counterDown()">
+      This button counts down</button>
+
+      <p id="counting"></p>
     </div>
   </body>
 </html>
